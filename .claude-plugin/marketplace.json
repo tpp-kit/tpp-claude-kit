@@ -42,6 +42,18 @@
       "source": "./plugins/tpp-automatizaciones",
       "description": "Automatizaciones: diseño de flujos en n8n y Make, integraciones y revisión de credenciales.",
       "category": "productivity"
+    },
+    {
+      "name": "tpp-estrategia",
+      "source": "./plugins/tpp-estrategia",
+      "description": "Estrategia y administración: propuestas y cotizaciones sin costos internos a la vista, y seguimiento de proyectos a grandes rasgos.",
+      "category": "productivity"
+    },
+    {
+      "name": "tpp-data",
+      "source": "./plugins/tpp-data",
+      "description": "Data: análisis y reportes reproducibles en solo lectura, con métricas bien definidas y sin datos personales de más.",
+      "category": "productivity"
     }
   ]
 }

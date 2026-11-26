@@ -21,7 +21,7 @@ En 3 líneas: qué vas a hacer, que toma unos 15 minutos, que nunca le vas a ped
 
 Después preguntá, con opciones cuando se pueda:
 1. Su **nombre**.
-2. Su **equipo**: pauta, servicio al cliente (SAC), diseño, automatizaciones u otro.
+2. Su **equipo o equipos** (puede ser más de uno): estrategia y administración, data, pauta, servicio al cliente (SAC), diseño, automatizaciones u otro.
 3. Cómo prefiere que le expliques: **paso a paso**, **breve** o **con detalle técnico**.
 
 ## Paso 2 de 7 · Revisar la instalación
@@ -56,14 +56,20 @@ Para cada `falta`, ofrecé el arreglo del campo `arreglo` y ejecutalo solo con u
    - **SAC:** por qué canales entran los casos (WhatsApp, correo, redes), si cada marca tiene política y tono escritos, y qué casos escala.
    - **Diseño:** de dónde saca las guías de marca, qué herramientas usa (Figma, Canva, Adobe) y qué formatos entrega más.
    - **Automatizaciones:** qué herramientas usa (n8n, Make, otras), qué sistemas conecta y quién mantiene los flujos cuando fallan.
+   - **Estrategia y administración:** qué propuestas o cotizaciones arma, quién aprueba precios y compromisos, y qué proyectos sigue.
+   - **Data:** de qué fuentes saca los datos (Odoo, plataformas, planillas), qué reportes entrega y a quién, y qué métricas usa más.
    - **Otro:** qué hace y qué herramientas usa. Anotalo como pendiente para que Guie arme su paquete.
+
+   Si la persona está en más de un equipo, hacé las preguntas de cada uno.
 
 ## Paso 5 de 7 · Instalar lo de su equipo y diseñar su flujo
 
-1. Con un sí, instalá el paquete de su equipo:
+1. Con un sí, instalá el paquete de **cada** equipo que eligió (si está en dos, se instalan los dos):
 
 | Equipo | Comando |
 |---|---|
+| Estrategia y administración | `claude plugin install tpp-estrategia@tpp-claude-kit` |
+| Data | `claude plugin install tpp-data@tpp-claude-kit` |
 | Pauta | `claude plugin install tpp-pauta@tpp-claude-kit` |
 | SAC | `claude plugin install tpp-sac@tpp-claude-kit` |
 | Diseño | `claude plugin install tpp-diseno@tpp-claude-kit` |

@@ -1,0 +1,7 @@
+{
+  "name": "tpp-data",
+  "description": "Data del kit TPP: análisis y reportes reproducibles, definiciones de métricas y calidad de datos, en solo lectura.",
+  "author": {
+    "name": "Guie Porras"
+  }
+}

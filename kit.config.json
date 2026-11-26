@@ -5,6 +5,8 @@
   "plugin_base": "tpp",
   "plugin_candados": "tpp-guardrails",
   "plugins_equipo": {
+    "estrategia": "tpp-estrategia",
+    "data": "tpp-data",
     "pauta": "tpp-pauta",
     "sac": "tpp-sac",
     "diseno": "tpp-diseno",

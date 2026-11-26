@@ -1,6 +1,6 @@
 # Bienvenida al kit de Claude de TPP
 
-Este kit deja tu Claude listo para trabajar en TPP: con las reglas del equipo, con candados que protegen las cuentas de los clientes, y con asistentes pensados para tu área (pauta, servicio al cliente, diseño o automatizaciones).
+Este kit deja tu Claude listo para trabajar en TPP: con las reglas del equipo, con candados que protegen las cuentas de los clientes, y con asistentes pensados para tu área (estrategia, data, pauta, servicio al cliente, diseño o automatizaciones).
 
 Son cuatro pasos y unos 20 minutos.
 
@@ -62,10 +62,12 @@ El asistente revisa tu instalación, te hace unas preguntas sobre tu trabajo y a
 | `/tpp:mi-flujo` | Ajustar tu forma de trabajar o corregir algo que respondiste en la bienvenida |
 | `/tpp:diagnostico` | Ver si algo dejó de funcionar |
 
-Y según tu equipo. Si no sabés qué poner después del comando, escribilo solo y Claude te va preguntando.
+Y según tu equipo (si estás en más de uno, tenés los comandos de cada uno). Si no sabés qué poner después del comando, escribilo solo y Claude te va preguntando.
 
 | Equipo | Ejemplo |
 |---|---|
+| Estrategia y administración | `/tpp-estrategia:propuesta Cliente X, campaña de verano` |
+| Data | `/tpp-data:analisis cuánto se invirtió por plataforma en octubre` |
 | Pauta | `/tpp-pauta:reporte Cliente X semana pasada` |
 | Servicio al cliente | `/tpp-sac:respuesta` y pegá el mensaje del cliente |
 | Diseño | `/tpp-diseno:brief Cliente X, campaña de diciembre en Instagram` |
