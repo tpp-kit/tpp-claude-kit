@@ -16,7 +16,7 @@ Si no está claro qué revisar, preguntá qué archivo o texto es y para qué cl
    - `tpp:guardian-confidencialidad`
    - `tpp:qa-claims-marca`
    - `tpp:verificador-cifras` (solo si el entregable tiene cifras)
-3. Si está instalado el plugin del equipo y tiene un revisor de su especialidad (por ejemplo `tpp-pauta:analista-pauta` para un reporte de pauta o `tpp-sac:qa-sop` para un procedimiento de SAC), sumalo como cuarto revisor. Nunca más de cuatro.
+3. Si está instalado el plugin del equipo y tiene un revisor de su especialidad (por ejemplo `tpp-pauta:analista-pauta` para un reporte de pauta, `tpp-sac:qa-sop` para un procedimiento de SAC, `tpp-estrategia:revisor-propuestas` para una propuesta o `tpp-data:auditor-datos` para un análisis), sumalo como cuarto revisor. Nunca más de cuatro.
 4. Consolidá:
    - El veredicto final es el **más estricto** de los revisores: `NO SALE` > `CORREGIR` > `LISTO`.
    - Si dos revisores marcan lo mismo, mostralo una sola vez.

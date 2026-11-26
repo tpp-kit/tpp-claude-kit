@@ -11,6 +11,8 @@ Marketplace de plugins de Claude Code para los equipos de TPP. Lo mantiene Guie 
 |---|---|---|
 | `tpp` | Todos | 8 reglas de trabajo (se cargan en cada sesión), wizard `/tpp:bienvenida`, `/tpp:revision`, `/tpp:mi-flujo`, `/tpp:diagnostico` y 3 agentes universales: `guardian-confidencialidad`, `qa-claims-marca`, `verificador-cifras` |
 | `tpp-guardrails` | Todos, obligatorio | 4 hooks: conectores de Meta, Google y TikTok Ads en solo lectura (lista cerrada, ver abajo), bloqueo de credenciales pegadas en el chat, bloqueo de intentos de apagar los candados desde la sesión (`disableAllHooks`, desinstalarlos, un Claude anidado) y un latido al iniciar sesión que prueba que corren |
+| `tpp-estrategia` | Estrategia y administración | Regla de estrategia, agentes `revisor-propuestas`, `seguimiento-proyectos`, `/tpp-estrategia:propuesta` |
+| `tpp-data` | Data | Regla de data, agentes `analista-datos`, `auditor-datos`, `/tpp-data:analisis` |
 | `tpp-pauta` | Pauta | Regla de pauta, agente `analista-pauta`, `/tpp-pauta:reporte` |
 | `tpp-sac` | Servicio al cliente | Regla de SAC, agentes `triage-sac`, `redactor-respuestas`, `qa-sop`, `/tpp-sac:respuesta` |
 | `tpp-diseno` | Diseño | Regla de diseño, agentes `estrategia-creativa`, `brand-manager`, `/tpp-diseno:brief` |

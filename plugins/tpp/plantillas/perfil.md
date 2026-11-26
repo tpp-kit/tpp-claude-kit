@@ -4,7 +4,7 @@
      Las líneas que empiezan con "<!--" no se copian al perfil final. -->
 
 - **Nombre:** {{nombre}}
-- **Equipo:** {{equipo}}
+- **Equipo o equipos:** {{equipos}}
 - **Mi rol:** {{rol}}
 - **Quién aprueba lo que sale a un cliente:** {{aprobador}}
 - **Nivel técnico:** {{nivel}} — explicame las cosas {{estilo_explicacion}}.

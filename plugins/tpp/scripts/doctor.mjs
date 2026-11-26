@@ -39,7 +39,7 @@ export function origenDelKit(home = homedir()) {
   if (src.source === 'directory' || src.source === 'file') return { estado: 'local', detalle: 'el kit viene de una carpeta local (solo para quien lo mantiene)' };
   return { estado: 'ajeno', detalle: 'el kit conectado NO viene del repo oficial' };
 }
-export const PLUGINS_EQUIPO = ['tpp-pauta', 'tpp-sac', 'tpp-diseno', 'tpp-automatizaciones'];
+export const PLUGINS_EQUIPO = ['tpp-estrategia', 'tpp-data', 'tpp-pauta', 'tpp-sac', 'tpp-diseno', 'tpp-automatizaciones'];
 
 const HOME = homedir();
 const ES_WINDOWS = platform() === 'win32';
