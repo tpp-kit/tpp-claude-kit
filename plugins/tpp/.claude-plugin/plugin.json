@@ -1,0 +1,7 @@
+{
+  "name": "tpp",
+  "description": "Base del kit TPP: reglas de trabajo para todo el equipo, wizard /tpp:bienvenida, revisión antes de entregar y los 3 agentes universales.",
+  "author": {
+    "name": "Guie Porras"
+  }
+}

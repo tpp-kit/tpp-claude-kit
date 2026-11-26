@@ -1,0 +1,14 @@
+{
+  "name": "tpp-claude-kit",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Kit de Claude para los equipos de TPP",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node scripts/sincronizar.mjs --check && node tests/validar.mjs && node --test",
+    "sincronizar": "node scripts/sincronizar.mjs"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "tpp-guardrails",
+  "description": "Candados del kit TPP: conectores de Meta, Google y TikTok Ads en solo lectura, y bloqueo de credenciales pegadas en el chat.",
+  "author": {
+    "name": "Guie Porras"
+  }
+}

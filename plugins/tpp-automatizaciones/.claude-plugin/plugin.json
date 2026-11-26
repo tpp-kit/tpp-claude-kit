@@ -1,0 +1,7 @@
+{
+  "name": "tpp-automatizaciones",
+  "description": "Automatizaciones del kit TPP: diseño de flujos en n8n y Make, integraciones y revisión de credenciales.",
+  "author": {
+    "name": "Guie Porras"
+  }
+}

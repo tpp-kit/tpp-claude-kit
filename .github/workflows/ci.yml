@@ -1,0 +1,36 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 22
+      - name: Validar el kit y probar los candados
+        run: npm test
+      - name: Sintaxis del instalador de Mac
+        if: runner.os == 'Linux'
+        run: bash -n install/instalar-mac.sh
+      - name: Sintaxis del instalador de Windows
+        if: runner.os == 'Windows'
+        shell: powershell
+        run: |
+          $errores = $null
+          [void][System.Management.Automation.Language.Parser]::ParseFile("$PWD\install\instalar-windows.ps1", [ref]$null, [ref]$errores)
+          if ($errores.Count -gt 0) { $errores | ForEach-Object { Write-Error $_.Message }; exit 1 }

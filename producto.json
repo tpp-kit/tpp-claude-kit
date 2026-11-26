@@ -1,0 +1,48 @@
+{
+  "_comentario": "Manifiesto del filtro pre-infraestructura. El kit es tooling local: no tiene servidor, base de datos ni infraestructura pagada. Los datos de clientes nunca pasan por el kit; quedan en las herramientas de cada persona.",
+  "nombre": "Kit de Claude de TPP",
+  "etapa": "E0",
+  "_etapas": "E0 prototipo validando mercado · E1 instrumentado · E2 stack y costo decididos · E3 migrado · PROD con cliente real",
+
+  "perfil_datos": {
+    "pii_basica": false,
+    "pii_regulada": false,
+    "dinero": false,
+    "salud": false,
+    "menores": false,
+    "_nota": "El kit no almacena ni transmite datos: distribuye reglas, agentes y candados. Los perfiles personales quedan en la máquina de cada persona."
+  },
+
+  "ledger": null,
+  "contadores": null,
+  "periodo_medido": null,
+
+  "stack": {
+    "elegido": null,
+    "razon": null,
+    "excepciones_evaluadas": {}
+  },
+
+  "costo": {
+    "infra_mensual_usd": null,
+    "umbral_redimensionamiento": null
+  },
+
+  "controles_regulados": {
+    "cifrado_app_layer": false,
+    "break_glass": false
+  },
+
+  "decisiones_pendientes": [
+    {
+      "pregunta": "Nombre de la organización de GitHub del kit y plan (Free o Team) para proteger main con revisión y CI obligatorios",
+      "responsable": "Guie (PO)",
+      "fecha": null
+    },
+    {
+      "pregunta": "Dos personas de pauta para el piloto (una en Mac y una en Windows)",
+      "responsable": "Guie (PO)",
+      "fecha": null
+    }
+  ]
+}

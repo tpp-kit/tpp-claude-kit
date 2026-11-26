@@ -1,0 +1,14 @@
+{
+  "_doc": "Fuente única de los datos del kit. Los instaladores, el README y el ONBOARDING repiten estos valores y tests/validar.mjs falla si no coinciden. Cambiá el repo acá y corré `node scripts/sincronizar.mjs`.",
+  "marketplace": "tpp-claude-kit",
+  "repo": "tpp-kit/tpp-claude-kit",
+  "plugin_base": "tpp",
+  "plugin_candados": "tpp-guardrails",
+  "plugins_equipo": {
+    "pauta": "tpp-pauta",
+    "sac": "tpp-sac",
+    "diseno": "tpp-diseno",
+    "automatizaciones": "tpp-automatizaciones"
+  },
+  "node_minimo": 18
+}

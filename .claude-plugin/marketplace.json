@@ -1,0 +1,47 @@
+{
+  "name": "tpp-claude-kit",
+  "owner": {
+    "name": "Guie Porras"
+  },
+  "metadata": {
+    "description": "Kit de Claude para los equipos de TPP: reglas comunes, candados de seguridad, wizard de bienvenida y un plugin por equipo."
+  },
+  "plugins": [
+    {
+      "name": "tpp",
+      "source": "./plugins/tpp",
+      "description": "Base para todo el equipo: reglas de trabajo, wizard /tpp:bienvenida, revisión antes de entregar y los 3 agentes universales.",
+      "category": "productivity"
+    },
+    {
+      "name": "tpp-guardrails",
+      "source": "./plugins/tpp-guardrails",
+      "description": "Candados: deja en solo lectura los conectores de Meta, Google y TikTok Ads y bloquea credenciales pegadas en el chat.",
+      "category": "security"
+    },
+    {
+      "name": "tpp-pauta",
+      "source": "./plugins/tpp-pauta",
+      "description": "Equipo de pauta: análisis y reportes de campañas, siempre en solo lectura.",
+      "category": "productivity"
+    },
+    {
+      "name": "tpp-sac",
+      "source": "./plugins/tpp-sac",
+      "description": "Servicio al cliente: triage, borradores de respuesta y revisión de procedimientos.",
+      "category": "productivity"
+    },
+    {
+      "name": "tpp-diseno",
+      "source": "./plugins/tpp-diseno",
+      "description": "Diseño: estrategia creativa y consistencia de marca por cliente.",
+      "category": "productivity"
+    },
+    {
+      "name": "tpp-automatizaciones",
+      "source": "./plugins/tpp-automatizaciones",
+      "description": "Automatizaciones: diseño de flujos en n8n y Make, integraciones y revisión de credenciales.",
+      "category": "productivity"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "tpp-sac",
+  "description": "Servicio al cliente del kit TPP: triage de casos, borradores de respuesta y revisión de procedimientos.",
+  "author": {
+    "name": "Guie Porras"
+  }
+}
